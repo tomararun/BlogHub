@@ -1,0 +1,22 @@
+:root {
+    --bg-color: #14274E;
+    --nav-text: rgb(243, 243, 243);
+    --border-color: rgb(118, 118, 118);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+  }
+/*   
+  ::-webkit-scrollbar {
+    height: 15px;
+  } */

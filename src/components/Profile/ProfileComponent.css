@@ -1,0 +1,90 @@
+.profile_page_container {
+    margin-block: 10vh;
+}
+
+.user_profile_container {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    border-bottom: 1px solid rgb(144, 141, 141);
+    padding-bottom: 60px;
+}
+
+.user_image_container {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.user_profile_image {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: inherit;
+}
+
+.profile_user_name {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.profile_user_email {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(198, 197, 197);
+    margin-bottom: 25px;
+}
+
+.logout_btn {
+    background: rgb(98, 97, 97);
+    transition: 0.1s ease-in-out;
+}
+
+.logout_btn:hover {
+    opacity: 0.8;
+}
+
+.logout_btn:active {
+    transform: scale(0.7);
+}
+
+.profile_blogs_container {
+    margin-top: 60px;
+}
+
+.profile_blogs_heading {
+    font-size: 40px;
+    color: rgb(217, 216, 216);
+}
+
+.profile_blogs_sub_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.profile_drafts_container {
+    margin-top: 50px;
+    padding-top: 35px;
+    border-top: 1px solid rgb(151, 148, 148);
+}
+
+@media (max-width: 1100px) {
+    .profile_blogs_sub_container {
+        justify-content: center
+    }
+}
+
+@media (max-width: 600px) {
+    .user_profile_container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}

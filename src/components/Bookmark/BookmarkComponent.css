@@ -1,0 +1,25 @@
+.bookmarks_container {
+    /* border: 1px solid red; */
+    margin-block: 10vh;
+    max-width: 900px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.bookmarks_container > * {
+    flex: 1;
+    width: 100%;
+}
+
+.blog_user_name {
+    color: white;
+}
+
+.blog_title {
+    color: rgb(243, 243, 243);
+}

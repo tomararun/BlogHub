@@ -1,0 +1,22 @@
+.main_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    /* transition: opacity .25s ease; */
+}
+
+.sub_container {
+    max-width: 1250px;
+    width: 100%;
+    padding: 10px 20px;
+    padding-top: 80px;
+}
+
+@media (max-width: 600px) {
+    .sub_container {
+        padding: 10px;
+        padding-top: 80px;
+    }
+}
